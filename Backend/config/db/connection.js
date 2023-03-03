@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const connectionUrl = "mongodb://127.0.0.1:27017/bytive-assignment"
+const connectionUrl = "mongodb://127.0.0.1:27017/assignment"
 
 exports.connect = async () => {
     try {
